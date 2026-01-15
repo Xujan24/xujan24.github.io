@@ -9,13 +9,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="light dark">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet"  href="{{ '/assets/css/style.css' | relative_url }}">
     {% include head-custom.html %}
     <script src="https://kit.fontawesome.com/c9c476b721.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <main id="landing-page" class="container">
+   <div class="container">
+    <main id="landing-page">
         <div class="profile-image">
             <img src="/assets/imgs/profile-pic.png" />
         </div>
@@ -34,6 +38,20 @@
             </div>
         </div>
     </main>
+    <footer>
+        <div class="footer-links">
+            <a href="mailto:"><i class="fa-regular fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-orcid"></i></a>
+            <a href="#"><i class="fa-brands fa-google-scholar"></i></a>
+        </div>
+        <div class="credits">
+            hello
+        </div>
+    </footer>
+   </div>
 </body>
 
 </html>

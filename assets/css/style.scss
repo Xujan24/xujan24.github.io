@@ -5,11 +5,12 @@
 
 main#landing-page {
     position: relative;
-    height: 100vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    margin-top: 2em;
 
     .profile-image {
         width: 50%;
@@ -18,7 +19,7 @@ main#landing-page {
         img {
             display: block;
             width: 100%;
-            max-width: 300px;
+            max-width: 25em;
             height: auto;
             margin: 0px auto;
         }
@@ -29,6 +30,7 @@ main#landing-page {
         flex-direction: column;
         align-items: center;
         width: 50%;
+        gap: 0.5em;
 
         .project-name, .project-tagline {
             text-align: center;
@@ -46,7 +48,6 @@ main#landing-page {
             a{
                 font-size: 0.85em;
                 color: gray;
-                text-decoration: none;
                 border: 1px groove gray;
                 padding: 0.5em;
                 border-radius: 1em;
@@ -55,6 +56,8 @@ main#landing-page {
     }
 
     @include large {
+        margin-top: calc(25vh);
+
         .contents {
             align-items: flex-start;
 
@@ -78,4 +81,22 @@ main#landing-page {
             width: 100%;
         }
     }
+}
+
+footer {
+    padding:1em 0em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+
+    .credits {
+        font-style: italic;
+        font-weight: 300;
+        font-size: 0.7em;
+    }
+
+    // a {
+    //     color: gray;
+    // }
 }

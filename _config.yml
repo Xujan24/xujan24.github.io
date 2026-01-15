@@ -21,17 +21,11 @@
 title: Santosh Purja Pun
 email: santosh.purjapun@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi, I'm a PhD candidate in the School of Computer Science, Data and 
-  Mathematical Sciences at Western Sydney University. My research focuses 
-  on applying recent advancements in Natural Language Processing to 
-  automatically align different disease classification systems, such as 
-  the International Classification of Diseases (ICD). This ensures health 
-  data remains consistent over time and across regions, addressing critical 
-  challenges in longitudinal analysis and data interoperability.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# twitter_username: jekyllrb
+twitter_username: jekyllrb
 github_username:  Xujan24
+linkedin_username: santosh
 
 # Build settings
 # theme: jekyll-theme-cayman
