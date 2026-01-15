@@ -23,9 +23,13 @@ email: santosh.purjapun@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  Xujan24
-linkedin_username: santosh
+socials:
+  twitter: https://x.com/punsantosh24
+  github:  https://github.com/Xujan24
+  linkedin: 
+  scholar: https://scholar.google.com/citations?user=na8sfn8AAAAJ&hl=en&authuser=2
+  orcid: https://orcid.org/0000-0002-9820-2553
+
 
 # Build settings
 # theme: jekyll-theme-cayman

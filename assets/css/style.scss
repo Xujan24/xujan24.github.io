@@ -56,7 +56,7 @@ main#landing-page {
     }
 
     @include large {
-        margin-top: calc(25vh);
+        margin-top: 22vh;
 
         .contents {
             align-items: flex-start;
@@ -89,6 +89,21 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 0.5em;
+    width: 100%;
+
+    .footer-links{
+        display: flex;
+        gap: 0.8em;
+        flex-wrap: wrap;
+        span {
+            display: block;
+            width: 1em;
+        }
+        
+        img {
+            width: 1.5em;
+        }
+    }
 
     .credits {
         font-style: italic;
