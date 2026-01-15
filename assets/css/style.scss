@@ -1,0 +1,81 @@
+---
+---
+
+@import 'theme';
+
+main#landing-page {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .profile-image {
+        width: 50%;
+        position: relative;
+
+        img {
+            display: block;
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 0px auto;
+        }
+    }
+
+    .contents {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+
+        .project-name, .project-tagline {
+            text-align: center;
+        }
+
+        .project-tagline {
+            font-weight: 400;
+        }
+
+        .nav-links {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5em;
+            flex-wrap: wrap;
+            a{
+                font-size: 0.85em;
+                color: gray;
+                text-decoration: none;
+                border: 1px groove gray;
+                padding: 0.5em;
+                border-radius: 1em;
+            }
+        }
+    }
+
+    @include large {
+        .contents {
+            align-items: flex-start;
+
+            .project-tagline {
+                text-align: left;
+            }
+        }
+    }
+
+    @include medium {
+        flex-direction: column;
+
+        .profile-image, .contents {
+            width: 100%;
+        }
+    }
+
+    @include small {
+        flex-direction: column;
+         .profile-image, .contents {
+            width: 100%;
+        }
+    }
+}

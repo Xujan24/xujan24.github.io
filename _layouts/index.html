@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+    <meta charset="UTF-8">
+
+    {% seo %}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet"  href="{{ '/assets/css/style.css' | relative_url }}">
+    {% include head-custom.html %}
+    <script src="https://kit.fontawesome.com/c9c476b721.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <main id="landing-page" class="container">
+        <div class="profile-image">
+            <img src="/assets/imgs/profile-pic.png" />
+        </div>
+        <div class="contents">
+            <div>
+                <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+            </div>
+            <div>
+                <p class="project-tagline">{{ page.description | default: site.description | default:
+                    site.github.project_tagline }}</h2>
+            </div>
+            <div class="nav-links">
+                <a href="#">/About </a>
+                <a href="#">/Publications </a>
+                <a href="#">/Contact</a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

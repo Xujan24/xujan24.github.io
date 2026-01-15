@@ -21,18 +21,22 @@
 title: Santosh Purja Pun
 email: santosh.purjapun@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi, I'm a PhD candidate in the School of Computer Science, Data and 
+  Mathematical Sciences at Western Sydney University. My research focuses 
+  on applying recent advancements in Natural Language Processing to 
+  automatically align different disease classification systems, such as 
+  the International Classification of Diseases (ICD). This ensures health 
+  data remains consistent over time and across regions, addressing critical 
+  challenges in longitudinal analysis and data interoperability.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username:  Xujan24
 
 # Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+# theme: jekyll-theme-cayman
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
